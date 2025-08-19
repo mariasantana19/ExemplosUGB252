@@ -1,4 +1,4 @@
-﻿
+﻿/*
 try
 {
 
@@ -47,3 +47,14 @@ catch (Exception e)
 
 
 }
+*/
+
+using conceitosbasicos.uteis;
+SomaDoisNumeros SomaDoisNumeros;
+SomaDoisNumeros = new SomaDoisNumeros();
+int resultado = SomaDoisNumeros.Somar(20, 22);
+Console.WriteLine(resultado);
+
+
+int milimetros = MetrosMilimetros.Converter(2);
+
